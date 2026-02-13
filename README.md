@@ -81,7 +81,7 @@ To use a custom domain (e.g. `viktoriasiskova.com`):
 ## 📬 Contact
 
 - LinkedIn: https://www.linkedin.com/in/viktoria-empowers-with-passion/
-- Email: your@email.com
+- Email: v.siskova.ba@gmail.com
 
 ---
 
