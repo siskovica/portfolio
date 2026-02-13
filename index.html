@@ -122,7 +122,7 @@
       background: #000;
     }
 
-        /* LANGUAGES */
+    /* LANGUAGES */
     .languages {
   background: #ffffff;
 }
@@ -131,6 +131,41 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 48px;
+}
+
+.certificates {
+  background: var(--light);
+}
+
+    /* CERTIFICATES */
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 32px;
+}
+
+.cert-item {
+  background: #fff;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+    /* RECOMMENDATIONS */
+.recommendations {
+  background: #ffffff;
+}
+
+.rec-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+}
+
+.rec-item {
+  background: var(--light);
+  padding: 24px;
+  border-radius: 8px;
+  font-style: italic;
 }
 
     /* WORK */
@@ -252,6 +287,39 @@
   </div>
 </section>
 
+<!-- EDUCATION -->
+<section class="education">
+  <div class="container">
+    <h2>Education</h2>
+
+    <div class="experience-item">
+      <div class="year">2011 – 2013</div>
+      <div>
+        <h3>Master’s Degree in International Financial Management in German language (Double Degree)</h3>
+        <p class="muted">The Martin Luther University of Halle-Wittenberg</p>
+        <p>
+          Focus on leadership, international financial management, and applied problem-solving
+          in complex organizational environments.
+        </p>
+        <p>
+          Analytical Skills · Private Equity · Portfolio Management · Alternative Investments · Investment Accounting · International Accounting · Hedge Funds
+        </p>
+      </div>
+    </div>
+
+    <div class="experience-item">
+      <div class="year">2008 – 2011</div>
+      <div>
+        <h3>Bachelor’s Degree in International Economic Relations</h3>
+        <p class="muted">Ekonomická univerzita v Bratislave</p>
+        <p>
+        Erasmus Student Network Slovakia (ESN Slovakia) - Erasmus students’ support from nomination to enrollment; participation in presentations, trips, cultural and social events
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- SKILLS -->
 <section class="skills">
   <div class="container skills">
@@ -334,6 +402,46 @@
         Czech
         <div class="bar"><span style="width:90%"></span></div>
         <p class="muted">Professional working proficiency</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATES -->
+<section class="certificates">
+  <div class="container">
+    <h2>Certificates</h2>
+
+    <div class="cert-grid">
+      <div class="cert-item">
+        <h3>Career Essentials in Generative AI by Microsoft and LinkedIn</h3>
+        <p class="muted">Microsoft</p>
+      </div>
+
+      <div class="cert-item">
+        <h3>Scrum Master</h3>
+        <p class="muted">Butterfly Effect program</p>
+      </div>
+
+      <div class="cert-item">
+        <h3>Information Technologies in Business</h3>
+        <p class="muted">Mini Tech MBA</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RECOMMENDATIONS -->
+<section class="recommendations">
+  <div class="container">
+    <h2>Recommendations</h2>
+
+    <div class="rec-grid">
+      <div class="rec-item">
+        <p>
+          “Viki has been responsible for one of our WealthTech products as a Business Analyst and later Product Owner. She quickly built a team and a team culture that produced outstanding results. Viki has extensive and detailed knowledge of the financial industry, and has a very strong talent in establishing a shared understanding between stakeholders and development teams. Her methodological knowledge and experience in specifying sophisticated requirements in a way that is understandable and to the point is very helpful. Viki is remarkably thorough and conscientious in her work. It is a great pleasure to work with her because you can always count on her due to her commitment and reliability. The mood in her team has always been very positive because she creates a very pleasant and productive working atmosphere with her friendly, open and constructive manner. In addition, she has always discussed, coordinated and agreed on the necessary prioritization of the tasks at hand with everyone involved. Viki puts the agile mindset very skillfully into practice by regularly giving but also accepting feedback. For me personally, it was a great enrichment to have met and worked with Viki, and I can unreservedly recommend her to all teams that want to master complex and complicated challenges in high quality.”
+        </p>
+        <p class="muted">— Malte Rosenthal, CTO (Direct Lead)</p>
       </div>
     </div>
   </div>
