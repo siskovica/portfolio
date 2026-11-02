@@ -69,15 +69,6 @@ To use a custom domain (e.g. `viktoriasiskova.com`):
 
 ---
 
-## 🧠 Design Philosophy
-
-- Minimalist & distraction-free
-- Optimized for recruiters and hiring managers
-- Focus on outcomes, clarity, and leadership
-- Easy to maintain long-term
-
----
-
 ## 📬 Contact
 
 - LinkedIn: https://www.linkedin.com/in/viktoria-empowers-with-passion/
